@@ -7,5 +7,5 @@ jobs:
         runs-on: windows-latest
  
         steps:
-            -name: echo a string
-             run: echo "Hello World"
+            - name: echo a string
+              run: echo "Hello World"
