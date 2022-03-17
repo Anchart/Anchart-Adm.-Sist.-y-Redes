@@ -10,7 +10,9 @@ jobs:
             - name: echo a string
               run: |
                     echo "Hello World"
-                    cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/Anchart-Adm.-Sist.-y-Redes/.github/workflows
+                    pwd
+                    cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/
+                    ls
                     cp workflow.yml /home/runner/work/Anchart-Adm.-Sist.-y-Redes/workflow-copia.yml
                     ls /home/runner/work/Anchart-Adm.-Sist.-y-Redes
                     cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes
