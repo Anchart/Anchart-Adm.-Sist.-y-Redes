@@ -7,13 +7,29 @@ jobs:
         runs-on: ubuntu-latest
  
         steps:
-            - name: echo a string
+            - name: crear la carpeta de trabajo
+              run: cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/Anchart-Adm.-Sist.-y-Redes/
+                    mkdir alumno
+                   
+            - name: cp 
+              run: cp workflow.yml /home/runner/work/Anchart-Adm.-Sist.-y-Redes/workflow-copia.yml
+              
+            - name: ls
               run: |
-                    echo "Hello World"
-                    pwd
-                    cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/
                     ls
-                    cp workflow.yml /home/runner/work/Anchart-Adm.-Sist.-y-Redes/workflow-copia.yml
                     ls /home/runner/work/Anchart-Adm.-Sist.-y-Redes
-                    cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes
-                    pwd
+              
+            - name: cd
+              run:
+              
+            - name: pwd
+              run: pwd
+              
+             - name: tail
+              run:
+              
+             - name: cat
+              run:
+                    
+              - name: mv
+              run:
