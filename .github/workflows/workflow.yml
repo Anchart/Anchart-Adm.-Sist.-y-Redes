@@ -11,25 +11,3 @@ jobs:
               run: cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/Anchart-Adm.-Sist.-y-Redes/
                     mkdir alumno
                    
-            - name: cp 
-              run: cp workflow.yml /home/runner/work/Anchart-Adm.-Sist.-y-Redes/workflow-copia.yml
-              
-            - name: ls
-              run: |
-                    ls
-                    ls /home/runner/work/Anchart-Adm.-Sist.-y-Redes
-              
-            - name: cd
-              run:
-              
-            - name: pwd
-              run: pwd
-              
-             - name: tail
-              run:
-              
-             - name: cat
-              run:
-                    
-              - name: mv
-              run:
