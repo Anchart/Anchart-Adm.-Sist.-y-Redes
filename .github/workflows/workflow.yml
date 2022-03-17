@@ -10,5 +10,7 @@ jobs:
             - name: echo a string
               run: |
                     echo "Hello World"
-                    echo "chau world"
+                    cp workflow.yml /home/runner/work/Anchart-Adm.-Sist.-y-Redes/workflow-copia.yml
+                    ls /home/runner/work/Anchart-Adm.-Sist.-y-Redes
+                    cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes
                     pwd
