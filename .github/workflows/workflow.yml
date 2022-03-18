@@ -8,6 +8,7 @@ jobs:
  
         steps:
             - name: crear la carpeta de trabajo
-              run: cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/Anchart-Adm.-Sist.-y-Redes/
+              run: |
+                    cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/Anchart-Adm.-Sist.-y-Redes/
                     mkdir alumno
                    
