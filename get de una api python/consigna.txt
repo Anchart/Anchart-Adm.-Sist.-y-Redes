@@ -1,0 +1,2 @@
+hacer un script en python que haga un get a una api x
+guardar ese texto en un archivo distinto

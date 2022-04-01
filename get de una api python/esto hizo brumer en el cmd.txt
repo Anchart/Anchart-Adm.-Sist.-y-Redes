@@ -1,0 +1,28 @@
+Microsoft Windows [Versión 10.0.19042.1586]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\valen>python
+Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+C:\Users\valen>pip install requests
+Collecting requests
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     ---------------------------------------- 63.1/63.1 KB 1.7 MB/s eta 0:00:00
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.9-py2.py3-none-any.whl (138 kB)
+     ---------------------------------------- 139.0/139.0 KB 2.7 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.2/61.2 KB 1.6 MB/s eta 0:00:00
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     ---------------------------------------- 149.2/149.2 KB 4.5 MB/s eta 0:00:00
+Installing collected packages: certifi, urllib3, idna, charset-normalizer, requests
+Successfully installed certifi-2021.10.8 charset-normalizer-2.0.12 idna-3.3 requests-2.27.1 urllib3-1.26.9
+
+C:\Users\valen>
+
