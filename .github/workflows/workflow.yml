@@ -13,6 +13,6 @@ jobs:
                     cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/Anchart-Adm.-Sist.-y-Redes/
                     mkdir carpeta
                     cd /home/runner/work/Anchart-Adm.-Sist.-y-Redes/Anchart-Adm.-Sist.-y-Redes/carpeta/
-                    print("hola")
+                    print(hola)
                     
                     
