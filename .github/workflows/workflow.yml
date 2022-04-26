@@ -1,4 +1,4 @@
-name: mi primer workflow
+name: workflow comandos
  
 on: [push]
  
