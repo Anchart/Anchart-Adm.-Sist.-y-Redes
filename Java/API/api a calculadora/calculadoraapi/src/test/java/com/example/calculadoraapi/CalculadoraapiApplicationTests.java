@@ -10,6 +10,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 @SpringBootTest
 public class CalculadoraapiApplicationTests {
@@ -17,14 +18,14 @@ public class CalculadoraapiApplicationTests {
 
 
 	@Test
-	public void sumaTest1 (){
-		assertEquals(objcalcu.calcular(2,2,0,1), 4);
+	public void sumaTest(){
+		assertEquals(objcalcu.calcular(2,2,0,1), "El resultado es: 4");
 	}
-
 
 	@Test
-	public void sumaTest1 (){
-		assertEquals(objcalcu.calcular(2,2,0,4), 1);
+	public void divisionTest (){
+		assertEquals(objcalcu.calcular(2,2,0,4), "El resultado es: 1");
 	}
+
 
 }
