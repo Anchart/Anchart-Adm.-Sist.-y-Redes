@@ -15,7 +15,10 @@ public class CalculadoraapiApplication {
 
 	calculadora objcalcu = new calculadora();
 
-
+	@GetMapping("/hello")
+	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+		return String.format("Hello %s!", name);
+	}
 	@GetMapping(value = "/calcular")
 	public String calcular(@RequestParam(name = "a") Integer ainteger,
 						   @RequestParam(name = "b") Integer binteger,

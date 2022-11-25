@@ -1,0 +1,19 @@
+public int consumeApi(String urlString){
+		int response = 0;
+		try{
+			URL url = new URL(urlString);
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestMethod("GET");
+			conn.setRequestProperty("Accept", "application/json");
+			InputStreamReader in = new InputStreamReader(conn.getInputStream());
+			BufferedReader br = new BufferedReader(in);
+			String output;
+			while ((output = br.readLine()) != null) {
+				response = Integer.parseInt(output);
+			}
+			conn.disconnect();
+		}catch (Exception e) {
+			System.out.println("Exception: " + e);
+		}
+		return response;
+	}
